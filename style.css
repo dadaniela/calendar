@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+    margin: 0;
+}
+
+body > div {
+    display: flex;
+}
+
+#background-h1 {
+    background-color: black;
+    width: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#background-h1 h1 {
+    font-family: "Lora";
+    font-weight: 600;
+    font-size: 10.0rem;
+    color: white;
+}
