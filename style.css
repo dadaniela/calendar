@@ -6,7 +6,6 @@
 }
 
 body > div {
-    border: solid 1px green;
     display: flex;
     margin: 1.5rem;
 }
@@ -44,15 +43,14 @@ body > div {
 }
 
 .right {
-    border: solid 1px orangered;
     flex: 3;
 }
 
 .right-header {
-    border: black solid 1px;
     display: flex;
     align-items: center;
-    height: 14rem;
+    text-indent: 6.5rem;
+    height: 14.3rem;
 }
 
 .right-header h1 {
@@ -66,4 +64,39 @@ body > div {
     font-size: 7rem;
     font-weight: 300;
     color: grey;
+}
+
+.weekdays-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.weekdays {
+    margin: 0.7rem;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 2.5rem;
+    color: #f4efef;
+    width: 13rem;
+    background: black;
+}
+
+.month-days-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.month-days {
+    font-family: "Roboto";
+    margin: 1.2rem;
+    padding-top: 0.5rem;
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    text-indent: 0.5rem;
+    color: black;
+    width: 12rem;
+    height: 8rem;
+    border: solid black;
+    border-width: 0.5px 1px 1px 0.5px;
 }
