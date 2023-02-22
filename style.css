@@ -8,16 +8,37 @@ body > div {
     display: flex;
 }
 
-#background-h1 {
-    background-color: black;
-    width: fit-content;
+.left {
+    border: solid 1px pink;
+    background: #eceaea;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
-#background-h1 h1 {
+.right {
+    border: solid 1px orangered;
+}
+
+.left h1 {
     font-family: "Lora";
     font-weight: 600;
     font-size: 10.0rem;
+    background: black;
     color: white;
+    align-items: stretch;
+    margin-bottom: 2rem;
+}
+
+.left h2 {
+    font: "Roboto";
+    font-size: 1.5rem;
+    background: black;
+    color: white;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.line {
+    border: 0.5px black solid;
+    margin: 1.5rem 1.5rem;
 }
