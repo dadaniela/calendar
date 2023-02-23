@@ -24,7 +24,7 @@ body > div {
     font-size: 14rem;
     line-height: 10rem;
     text-indent: 1.5rem;
-    padding-top: 4rem;
+    padding-top: 5.5rem;
     margin-bottom: 2rem;
     background: black;
     color: #f4efef;
@@ -33,16 +33,16 @@ body > div {
 .left h2 {
     font-family: "Roboto";
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
     background: black;
     color: #f4efef;
     align-items: center;
-    margin: 1rem 3rem;
+    margin: 1.5rem 3.5rem;
 }
 
 .line {
     border: 0.5px black solid;
-    margin: 1.5rem 3rem;
+    margin: 2rem 3.5rem;
 }
 
 .right {
@@ -55,18 +55,18 @@ body > div {
     display: flex;
     align-items: center;
     text-indent: 0.5rem;
-    height: 14.3rem;
+    height: 12rem;
 }
 
 .right-header h1 {
     font-family: "Roboto";
-    font-size: 7rem;
-    font-weight: 300;
+    font-size: 6rem;
+    font-weight: 400;
 }
 
 .right-header h1 span {
     font-family: "Roboto";
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 300;
     color: grey;
 }
@@ -83,7 +83,7 @@ body > div {
     font-family: "Roboto";
     font-size: 2.5rem;
     color: #f4efef;
-    width: 13rem;
+    width: 11rem;
     background: black;
 }
 
@@ -100,11 +100,35 @@ body > div {
     font-size: 1.5rem;
     text-indent: 0.5rem;
     color: black;
-    width: 12rem;
-    height: 8rem;
+    width: 10rem;
+    height: 7rem;
     border: solid black;
     border-width: 0.5px 1px 1px 0.5px;
 }
+
+.footer {
+    position: relative;
+}
+
+.footer-box {
+    display: flex;
+    margin-top: 2rem;
+    height: 20rem;
+    overflow: hidden;
+    border: 1px black solid;
+}
+
+.footer p {
+    font-family: "Roboto";
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    padding-right: 1.5rem;
+    background: #f4efef;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /* 
 ainda falta:
 - criar o notes footer para o right
