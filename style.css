@@ -18,13 +18,16 @@ body > div {
 }
 
 .left h1 {
+    align-items: end;
     font-family: "Lora";
     font-weight: 600;
     font-size: 14rem;
+    line-height: 10rem;
+    text-indent: 1.5rem;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
     background: black;
     color: #f4efef;
-    align-items: stretch;
-    margin-bottom: 2rem;
 }
 
 .left h2 {
@@ -44,12 +47,14 @@ body > div {
 
 .right {
     flex: 3;
+    padding-left: 3rem;
 }
 
+/* month container */
 .right-header {
     display: flex;
     align-items: center;
-    text-indent: 6.5rem;
+    text-indent: 0.5rem;
     height: 14.3rem;
 }
 
@@ -100,3 +105,8 @@ body > div {
     border: solid black;
     border-width: 0.5px 1px 1px 0.5px;
 }
+/* 
+ainda falta:
+- criar o notes footer para o right
+- ajustar os weekdays para que fiquem numa linha preta sem espaço
+*/
